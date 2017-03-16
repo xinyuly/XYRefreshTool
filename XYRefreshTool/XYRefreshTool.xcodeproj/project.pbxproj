@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE26F3211E7A958100090285 /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE26F3191E7A958100090285 /* loading@2x.png */; };
+		AE26F3221E7A958100090285 /* pull_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE26F31A1E7A958100090285 /* pull_refresh@2x.png */; };
+		AE26F3231E7A958100090285 /* UIScrollView+XYRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE26F31C1E7A958100090285 /* UIScrollView+XYRefreshView.m */; };
+		AE26F3241E7A958100090285 /* XYPullRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE26F31E1E7A958100090285 /* XYPullRefreshView.m */; };
+		AE26F3251E7A958100090285 /* XYPushRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE26F3201E7A958100090285 /* XYPushRefreshView.m */; };
 		B7D600211DBB64090005FB38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D600201DBB64090005FB38 /* main.m */; };
 		B7D600241DBB64090005FB38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D600231DBB64090005FB38 /* AppDelegate.m */; };
 		B7D600271DBB64090005FB38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D600261DBB64090005FB38 /* ViewController.m */; };
 		B7D6002A1DBB64090005FB38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D600281DBB64090005FB38 /* Main.storyboard */; };
 		B7D6002C1DBB64090005FB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D6002B1DBB64090005FB38 /* Assets.xcassets */; };
 		B7D6002F1DBB64090005FB38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D6002D1DBB64090005FB38 /* LaunchScreen.storyboard */; };
-		B7D6003F1DBB64270005FB38 /* UIScrollView+XYRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6003A1DBB64270005FB38 /* UIScrollView+XYRefreshView.m */; };
-		B7D600401DBB64270005FB38 /* XYPushRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6003C1DBB64270005FB38 /* XYPushRefreshView.m */; };
-		B7D600661DBB64A70005FB38 /* XYPullRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D600651DBB64A70005FB38 /* XYPullRefreshView.m */; };
-		B7D600691DC0ECD80005FB38 /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D600671DC0ECD80005FB38 /* loading@2x.png */; };
-		B7D6006A1DC0ECD80005FB38 /* pull_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D600681DC0ECD80005FB38 /* pull_refresh@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE26F3191E7A958100090285 /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@2x.png"; sourceTree = "<group>"; };
+		AE26F31A1E7A958100090285 /* pull_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_refresh@2x.png"; sourceTree = "<group>"; };
+		AE26F31B1E7A958100090285 /* UIScrollView+XYRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XYRefreshView.h"; sourceTree = "<group>"; };
+		AE26F31C1E7A958100090285 /* UIScrollView+XYRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XYRefreshView.m"; sourceTree = "<group>"; };
+		AE26F31D1E7A958100090285 /* XYPullRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPullRefreshView.h; sourceTree = "<group>"; };
+		AE26F31E1E7A958100090285 /* XYPullRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPullRefreshView.m; sourceTree = "<group>"; };
+		AE26F31F1E7A958100090285 /* XYPushRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPushRefreshView.h; sourceTree = "<group>"; };
+		AE26F3201E7A958100090285 /* XYPushRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPushRefreshView.m; sourceTree = "<group>"; };
 		B7D6001C1DBB64090005FB38 /* XYRefreshTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYRefreshTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D600201DBB64090005FB38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7D600221DBB64090005FB38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,14 +39,6 @@
 		B7D6002B1DBB64090005FB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7D6002E1DBB64090005FB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7D600301DBB64090005FB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7D600391DBB64270005FB38 /* UIScrollView+XYRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XYRefreshView.h"; sourceTree = "<group>"; };
-		B7D6003A1DBB64270005FB38 /* UIScrollView+XYRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XYRefreshView.m"; sourceTree = "<group>"; };
-		B7D6003B1DBB64270005FB38 /* XYPushRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPushRefreshView.h; sourceTree = "<group>"; };
-		B7D6003C1DBB64270005FB38 /* XYPushRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPushRefreshView.m; sourceTree = "<group>"; };
-		B7D600641DBB64A70005FB38 /* XYPullRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPullRefreshView.h; sourceTree = "<group>"; };
-		B7D600651DBB64A70005FB38 /* XYPullRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPullRefreshView.m; sourceTree = "<group>"; };
-		B7D600671DC0ECD80005FB38 /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@2x.png"; sourceTree = "<group>"; };
-		B7D600681DC0ECD80005FB38 /* pull_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_refresh@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +52,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE26F3181E7A958100090285 /* XYRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				AE26F3191E7A958100090285 /* loading@2x.png */,
+				AE26F31A1E7A958100090285 /* pull_refresh@2x.png */,
+				AE26F31B1E7A958100090285 /* UIScrollView+XYRefreshView.h */,
+				AE26F31C1E7A958100090285 /* UIScrollView+XYRefreshView.m */,
+				AE26F31D1E7A958100090285 /* XYPullRefreshView.h */,
+				AE26F31E1E7A958100090285 /* XYPullRefreshView.m */,
+				AE26F31F1E7A958100090285 /* XYPushRefreshView.h */,
+				AE26F3201E7A958100090285 /* XYPushRefreshView.m */,
+			);
+			path = XYRefreshControl;
+			sourceTree = "<group>";
+		};
 		B7D600131DBB64090005FB38 = {
 			isa = PBXGroup;
 			children = (
@@ -71,7 +86,7 @@
 		B7D6001E1DBB64090005FB38 /* XYRefreshTool */ = {
 			isa = PBXGroup;
 			children = (
-				B7D600361DBB64270005FB38 /* XYPullControl */,
+				AE26F3181E7A958100090285 /* XYRefreshControl */,
 				B7D600221DBB64090005FB38 /* AppDelegate.h */,
 				B7D600231DBB64090005FB38 /* AppDelegate.m */,
 				B7D600251DBB64090005FB38 /* ViewController.h */,
@@ -91,21 +106,6 @@
 				B7D600201DBB64090005FB38 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B7D600361DBB64270005FB38 /* XYPullControl */ = {
-			isa = PBXGroup;
-			children = (
-				B7D600671DC0ECD80005FB38 /* loading@2x.png */,
-				B7D600681DC0ECD80005FB38 /* pull_refresh@2x.png */,
-				B7D600641DBB64A70005FB38 /* XYPullRefreshView.h */,
-				B7D600651DBB64A70005FB38 /* XYPullRefreshView.m */,
-				B7D600391DBB64270005FB38 /* UIScrollView+XYRefreshView.h */,
-				B7D6003A1DBB64270005FB38 /* UIScrollView+XYRefreshView.m */,
-				B7D6003B1DBB64270005FB38 /* XYPushRefreshView.h */,
-				B7D6003C1DBB64270005FB38 /* XYPushRefreshView.m */,
-			);
-			path = XYPullControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +139,7 @@
 				TargetAttributes = {
 					B7D6001B1DBB64090005FB38 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 4QGB535X3S;
+						DevelopmentTeam = NQ6LQC28H4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -167,11 +167,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE26F3221E7A958100090285 /* pull_refresh@2x.png in Resources */,
 				B7D6002F1DBB64090005FB38 /* LaunchScreen.storyboard in Resources */,
+				AE26F3211E7A958100090285 /* loading@2x.png in Resources */,
 				B7D6002C1DBB64090005FB38 /* Assets.xcassets in Resources */,
-				B7D600691DC0ECD80005FB38 /* loading@2x.png in Resources */,
 				B7D6002A1DBB64090005FB38 /* Main.storyboard in Resources */,
-				B7D6006A1DC0ECD80005FB38 /* pull_refresh@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,12 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE26F3241E7A958100090285 /* XYPullRefreshView.m in Sources */,
 				B7D600271DBB64090005FB38 /* ViewController.m in Sources */,
-				B7D600401DBB64270005FB38 /* XYPushRefreshView.m in Sources */,
-				B7D6003F1DBB64270005FB38 /* UIScrollView+XYRefreshView.m in Sources */,
-				B7D600661DBB64A70005FB38 /* XYPullRefreshView.m in Sources */,
+				AE26F3231E7A958100090285 /* UIScrollView+XYRefreshView.m in Sources */,
 				B7D600241DBB64090005FB38 /* AppDelegate.m in Sources */,
 				B7D600211DBB64090005FB38 /* main.m in Sources */,
+				AE26F3251E7A958100090285 /* XYPushRefreshView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,8 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4QGB535X3S;
+				DEVELOPMENT_TEAM = NQ6LQC28H4;
 				INFOPLIST_FILE = XYRefreshTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XY.XYRefreshTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -317,8 +318,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4QGB535X3S;
+				DEVELOPMENT_TEAM = NQ6LQC28H4;
 				INFOPLIST_FILE = XYRefreshTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XY.XYRefreshTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";

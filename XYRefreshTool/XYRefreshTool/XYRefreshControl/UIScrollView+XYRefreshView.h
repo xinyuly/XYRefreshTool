@@ -13,12 +13,22 @@
 @interface UIScrollView (XYRefreshView)
 //pull
 - (void)showPullRefreshViewWithDelegate:(id<XYPullRefreshViewDelegate>)delegate;
+
 - (void)startPullRefreshing;
+
 - (void)endPullRefreshed;
+
 - (void)hiddenPullView;
+
 //push
 - (void)showPushRefreshViewWithDelegate:(id<XYPullRefreshViewDelegate>)delegate;
+
 - (void)startPushRefreshing;
+
 - (void)endPushRefreshed;
+
 - (void)hiddenPushView;
+
+- (BOOL)isRefreshing;
+
 @end

@@ -11,7 +11,9 @@
 @class XYPullRefreshView;
 
 @protocol XYPullRefreshViewDelegate <NSObject>
+
 - (void)pullRefreshViewStartLoad:(XYPullRefreshView*)pullView;
+
 @end
 
 @interface XYPullRefreshView : UIView
@@ -19,6 +21,11 @@
 @property (nonatomic, weak) id<XYPullRefreshViewDelegate>delegate;
 
 - (void)startRefreshing;
+
 - (void)endRefreshing;
+
 - (void)hiddenPullView;
+
+- (BOOL)isRefreshing;
+
 @end

@@ -10,7 +10,9 @@
 #import "UIScrollView+XYRefreshView.h"
 
 @interface ViewController ()<XYPullRefreshViewDelegate,XYPushRefreshViewDelegate>
+
 @property (nonatomic, assign) NSInteger count;
+
 @end
 
 @implementation ViewController
@@ -28,7 +30,7 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.tableView endPullRefreshed];
         self.count = self.count -2;
-        [self.tableView hiddenPullView];
+//        [self.tableView hiddenPullView];
         [self.tableView reloadData];
     });
 }
@@ -36,11 +38,12 @@
 - (void)pushRefreshViewStartLoad:(XYPushRefreshView *)pushControl {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.tableView endPushRefreshed];
-        [self.tableView hiddenPushView];
+//        [self.tableView hiddenPushView];
         self.count = self.count +3;
         [self.tableView reloadData];
     });
 }
+#pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.count;
 }

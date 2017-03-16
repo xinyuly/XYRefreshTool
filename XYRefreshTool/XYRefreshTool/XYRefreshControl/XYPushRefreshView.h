@@ -19,6 +19,11 @@
 
 @property (nonatomic, weak) id<XYPushRefreshViewDelegate>delegate;
 - (void)startRefreshing;
+
 - (void)endRefreshing;
+
 - (void)hiddenPushView;
+
+- (BOOL)isRefreshing;
+
 @end

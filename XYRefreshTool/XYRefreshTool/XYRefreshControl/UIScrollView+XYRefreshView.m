@@ -63,4 +63,10 @@ static NSInteger XPushRefreshTag = 8749011;
     XYPushRefreshView *pushView = (XYPushRefreshView *)[self viewWithTag:XPushRefreshTag];
     [pushView hiddenPushView];
 }
+
+- (BOOL)isRefreshing {
+    XYPullRefreshView *pullView = (XYPullRefreshView *)[self viewWithTag:XPullRefreshTag];
+    XYPushRefreshView *pushView = (XYPushRefreshView *)[self viewWithTag:XPushRefreshTag];
+    return [pullView isRefreshing] || [pushView isRefreshing];
+}
 @end
