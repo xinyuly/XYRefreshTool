@@ -14,12 +14,11 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/xinyuly/XYRefreshTool"
   s.license      = "MIT"
-  s.author             = { "lixinyu"}
+  s.author       = {"lixinyu" => 'li_xinyuly@163.com'}
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "8.0"
+  s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/xinyuly/XYRefreshTool.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xinyuly/XYRefreshTool.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -30,8 +29,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "XYRefreshTool/**/*"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
