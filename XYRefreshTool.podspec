@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/xinyuly/XYRefreshTool.git', :tag => s.version }
 
-  s.source_files  = "XYRefreshTool/**/*"
+  s.source_files  = "XYRefreshTool/XYRefreshTool/*"
 
 
   s.requires_arc = true
