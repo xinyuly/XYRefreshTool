@@ -165,14 +165,18 @@ typedef NS_ENUM(NSInteger,XYPushRefreshStatus) {
 
 - (UIImageView *)arrowView {
     if (_arrowView == nil) {
-        _arrowView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"XYRefreshTool.bundle/pull_refresh"]];
+        NSBundle *bundle =  [NSBundle bundleWithPath:[[NSBundle bundleForClass:[XYPushRefreshView class]] pathForResource:@"XYRefreshTool" ofType:@"bundle"]];
+        UIImage *image = [UIImage imageWithContentsOfFile:[bundle pathForResource:@"pull_refresh@2x" ofType:@"png"]];
+        _arrowView = [[UIImageView alloc]initWithImage:image];
     }
     return _arrowView;
 }
-
+    
 - (UIImageView *)loadView {
     if (_loadView == nil) {
-        _loadView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"XYRefreshTool.bundle/loading"]];
+        NSBundle *bundle =  [NSBundle bundleWithPath:[[NSBundle bundleForClass:[XYPushRefreshView class]] pathForResource:@"XYRefreshTool" ofType:@"bundle"]];
+        UIImage *image = [UIImage imageWithContentsOfFile:[bundle pathForResource:@"loading@2x" ofType:@"png"]];
+        _loadView = [[UIImageView alloc] initWithImage:image];
     }
     return _loadView;
 }

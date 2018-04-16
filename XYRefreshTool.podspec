@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XYRefreshTool"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "刷新控件，下拉刷新，上拉加载更多."
 
   s.homepage     = "https://github.com/xinyuly/XYRefreshTool"
