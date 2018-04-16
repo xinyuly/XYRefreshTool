@@ -149,14 +149,14 @@ typedef NS_ENUM(NSInteger,XYPullRefreshStatus) {
 
 - (UIImageView *)arrowView {
     if (_arrowView == nil) {
-        _arrowView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"pull_refresh"]];
+        _arrowView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"XYRefreshTool.bundle/pull_refresh"]];
     }
     return _arrowView;
 }
 
 - (UIImageView *)loadView {
     if (_loadView == nil) {
-        _loadView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"loading"]];
+        _loadView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"XYRefreshTool.bundle/loading"]];
     }
     return _loadView;
 }

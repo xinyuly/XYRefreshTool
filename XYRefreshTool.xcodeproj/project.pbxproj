@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F7511242084578D00ABCCB7 /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F75111C2084578D00ABCCB7 /* loading@2x.png */; };
-		6F7511252084578D00ABCCB7 /* pull_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F75111D2084578D00ABCCB7 /* pull_refresh@2x.png */; };
 		6F7511262084578D00ABCCB7 /* UIScrollView+XYRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F75111F2084578D00ABCCB7 /* UIScrollView+XYRefreshView.m */; };
 		6F7511272084578D00ABCCB7 /* XYPullRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7511212084578D00ABCCB7 /* XYPullRefreshView.m */; };
 		6F7511282084578D00ABCCB7 /* XYPushRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7511232084578D00ABCCB7 /* XYPushRefreshView.m */; };
+		6F75113920847FB800ABCCB7 /* XYRefreshTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F75113820847FB800ABCCB7 /* XYRefreshTool.bundle */; };
 		B7D600211DBB64090005FB38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D600201DBB64090005FB38 /* main.m */; };
 		B7D600241DBB64090005FB38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D600231DBB64090005FB38 /* AppDelegate.m */; };
 		B7D600271DBB64090005FB38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D600261DBB64090005FB38 /* ViewController.m */; };
@@ -21,14 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F75111C2084578D00ABCCB7 /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@2x.png"; sourceTree = "<group>"; };
-		6F75111D2084578D00ABCCB7 /* pull_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_refresh@2x.png"; sourceTree = "<group>"; };
 		6F75111E2084578D00ABCCB7 /* UIScrollView+XYRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XYRefreshView.h"; sourceTree = "<group>"; };
 		6F75111F2084578D00ABCCB7 /* UIScrollView+XYRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XYRefreshView.m"; sourceTree = "<group>"; };
 		6F7511202084578D00ABCCB7 /* XYPullRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPullRefreshView.h; sourceTree = "<group>"; };
 		6F7511212084578D00ABCCB7 /* XYPullRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPullRefreshView.m; sourceTree = "<group>"; };
 		6F7511222084578D00ABCCB7 /* XYPushRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPushRefreshView.h; sourceTree = "<group>"; };
 		6F7511232084578D00ABCCB7 /* XYPushRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPushRefreshView.m; sourceTree = "<group>"; };
+		6F75113820847FB800ABCCB7 /* XYRefreshTool.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XYRefreshTool.bundle; sourceTree = "<group>"; };
 		B7D6001C1DBB64090005FB38 /* XYRefreshTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYRefreshTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D600201DBB64090005FB38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7D600221DBB64090005FB38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,8 +53,7 @@
 		6F75111B2084578D00ABCCB7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				6F75111C2084578D00ABCCB7 /* loading@2x.png */,
-				6F75111D2084578D00ABCCB7 /* pull_refresh@2x.png */,
+				6F75113820847FB800ABCCB7 /* XYRefreshTool.bundle */,
 				6F75111E2084578D00ABCCB7 /* UIScrollView+XYRefreshView.h */,
 				6F75111F2084578D00ABCCB7 /* UIScrollView+XYRefreshView.m */,
 				6F7511202084578D00ABCCB7 /* XYPullRefreshView.h */,
@@ -167,9 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F7511252084578D00ABCCB7 /* pull_refresh@2x.png in Resources */,
 				B7D6002F1DBB64090005FB38 /* LaunchScreen.storyboard in Resources */,
-				6F7511242084578D00ABCCB7 /* loading@2x.png in Resources */,
+				6F75113920847FB800ABCCB7 /* XYRefreshTool.bundle in Resources */,
 				B7D6002C1DBB64090005FB38 /* Assets.xcassets in Resources */,
 				B7D6002A1DBB64090005FB38 /* Main.storyboard in Resources */,
 			);

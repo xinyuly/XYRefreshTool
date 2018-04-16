@@ -1,5 +1,3 @@
-
-
 Pod::Spec.new do |s|
 
   s.name         = "XYRefreshTool"
@@ -15,7 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/xinyuly/XYRefreshTool.git', :tag => s.version }
 
   s.source_files  = "Source/*.{h,m}"
-
+  s.resources    = 'Source/XYRefreshTool.bundle'
 
   s.requires_arc = true
 
